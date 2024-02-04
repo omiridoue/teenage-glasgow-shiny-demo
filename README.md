@@ -4,7 +4,7 @@
 
 [(West and Sweeting 1995, Michell and Amos 1997, Pearson and Michell 2000, Pearson and West 2003)](https://www.stats.ox.ac.uk/~snijders/siena/Glasgow_data.htm)
 
-## Interactive Network Graph
+## Demo for Interactive Network Graph - Public Engagement
 
 **Step 1:** Open a new Rproject
 ![openj](https://github.com/omiridoue/teenage-glasgow-shiny-demo/assets/126977992/28344d37-4605-4248-950d-fc4fdd0257fd)
