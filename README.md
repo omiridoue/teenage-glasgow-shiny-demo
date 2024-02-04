@@ -1,4 +1,4 @@
-# Shiny App for Social Network Analysis using sigma.js for R 
+# Shiny App using sigma.js for R - Social Network Analysis
 
 ### Teenage Friends and Lifestyle Study - Glasgow
 
