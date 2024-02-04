@@ -6,6 +6,16 @@
 
 ## Interactive Network Graph
 
+**Step 1:** Open a new Rproject
+![openj](https://github.com/omiridoue/teenage-glasgow-shiny-demo/assets/126977992/28344d37-4605-4248-950d-fc4fdd0257fd)
+
+**Step 2:** Navigate to the code folder and open Rproj 'teenage-glasgow-shiny-demo'
+![step3](https://github.com/omiridoue/teenage-glasgow-shiny-demo/assets/126977992/0ca9def5-afd9-4d54-ac5d-c2b13f01b857)
+
+**Step 3:** Navigate to the run_app.R file and open the script, click on the Run App button to render the shiny app file.
+![step4](https://github.com/omiridoue/teenage-glasgow-shiny-demo/assets/126977992/35ccc8bb-2d27-424b-8596-315f38b7c61b)
+
+**Step 4:** View in Browser
 ![screenshot](https://github.com/omiridoue/teenage-glasgow-shiny-demo/assets/126977992/f24ba52e-3787-4a59-98ca-3c6e8a9cf747)
 
 ## References 
