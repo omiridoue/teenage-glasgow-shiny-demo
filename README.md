@@ -16,7 +16,7 @@
 ![step4](https://github.com/omiridoue/teenage-glasgow-shiny-demo/assets/126977992/35ccc8bb-2d27-424b-8596-315f38b7c61b)
 
 **Step 4:** View in Browser
-![shiny-demo](https://github.com/omiridoue/teenage-glasgow-shiny-demo/assets/126977992/ab4e9daa-e161-47a6-b5a7-6f37ed24c498)
+![shiny-demo](https://github.com/omiridoue/teenage-glasgow-shiny-demo/assets/126977992/69862d19-b874-4519-be21-238138d54da2)
 
 ## References 
 
