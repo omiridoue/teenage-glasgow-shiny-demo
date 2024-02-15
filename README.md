@@ -18,6 +18,12 @@
 **Step 4:** View in Browser
 ![shiny-demo](https://github.com/omiridoue/teenage-glasgow-shiny-demo/assets/126977992/69862d19-b874-4519-be21-238138d54da2)
 
+**OR** you could skip cloning the repo and run it directly with these two lines of code
+
+#install.packages("shiny")
+require(shiny)
+runGitHub(repo = "teenage-glasgow-shiny-demo", username = "omiridoue", ref = "main")
+
 ## References 
 
 **Bush, H., P. West, and L. Michell (1997)**. The role of friendship groups in the uptake and maintenance of smoking amongst pre-adolescent and adolescent children: Distribution of Frequencies. Working Paper No. 62. MRC Medical Sociology Unit Glasgow.<br>
