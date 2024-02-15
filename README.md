@@ -21,8 +21,8 @@ runGitHub(repo = "teenage-glasgow-shiny-demo", username = "omiridoue", ref = "ma
 **Step 2:** Navigate to the code folder and open Rproj 'teenage-glasgow-shiny-demo'
 ![step3](https://github.com/omiridoue/teenage-glasgow-shiny-demo/assets/126977992/0ca9def5-afd9-4d54-ac5d-c2b13f01b857)
 
-**Step 3:** Navigate to the run_app.R file and open the script, click on the Run App button to render the shiny app file.
-![step4](https://github.com/omiridoue/teenage-glasgow-shiny-demo/assets/126977992/35ccc8bb-2d27-424b-8596-315f38b7c61b)
+**Step 3:** Navigate to the app.R file and open the script, click on the Run App button to render the shiny app file.
+![img3](https://github.com/omiridoue/teenage-glasgow-shiny-demo/assets/126977992/c814a190-0b8a-4a25-9ff7-4191f48cde13)
 
 **Step 4:** View in Browser
 ![shiny-demo](https://github.com/omiridoue/teenage-glasgow-shiny-demo/assets/126977992/69862d19-b874-4519-be21-238138d54da2)
