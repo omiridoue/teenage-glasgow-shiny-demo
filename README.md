@@ -6,6 +6,15 @@
 
 ## Demo for Interactive Network Graph - Public Engagement
 
+This is a shiny app, you could skip cloning the repo and run it directly with the following lines of code, try to check if you've installed shiny before running this in the console/a script.
+
+#install.packages("shiny")
+
+require(shiny)
+
+runGitHub(repo = "teenage-glasgow-shiny-demo", username = "omiridoue", ref = "main")
+
+
 **Step 1:** Open a new Rproject
 ![openj](https://github.com/omiridoue/teenage-glasgow-shiny-demo/assets/126977992/28344d37-4605-4248-950d-fc4fdd0257fd)
 
@@ -17,12 +26,6 @@
 
 **Step 4:** View in Browser
 ![shiny-demo](https://github.com/omiridoue/teenage-glasgow-shiny-demo/assets/126977992/69862d19-b874-4519-be21-238138d54da2)
-
-**OR** you could skip cloning the repo and run it directly with these two lines of code
-
-#install.packages("shiny")
-require(shiny)
-runGitHub(repo = "teenage-glasgow-shiny-demo", username = "omiridoue", ref = "main")
 
 ## References 
 
