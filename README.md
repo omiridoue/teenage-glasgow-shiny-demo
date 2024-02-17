@@ -10,9 +10,11 @@ This is a shiny app, you could skip cloning the repo and run it directly with th
 Pacman will serve as your package installation/loading manager, it will install any of the packages used and not already installed so this may take a moment.
 
 `install.packages("shiny")`
+
 `install.packages("pacman")`
 
 `require(shiny)`
+
 `require("pacman")`
 
 `runGitHub(repo = "teenage-glasgow-shiny-demo", username = "omiridoue", ref = "main")`
