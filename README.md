@@ -6,8 +6,9 @@
 
 ## Demo for Interactive Network Graph - Public Engagement
 
-This is a shiny app, you could skip cloning the repo and run it directly with the following lines of code, try to check if you've installed shiny and/or pacman before running this in the console/a script.
-Pacman will serve as your package installation/loading manager, it will install any of the packages used and not already installed so this may take a moment.
+This is a shiny app for exploratory analysis for network data. This is an important process to every project that involves understanding of the interdependencies of data and the interactions these have with demographic covariates and response variables of interest. The following demo allows users to explore the Teenage Glasgow dataset through a modellers' lense allowing exploration of outcomes including sex and parent smoking outcomes. A table with descriptive statistics is updated with each selection of the survey wave. 
+
+You could skip cloning the repo and run it directly in your R script/console the following lines of code, try to check if you've installed shiny and/or pacman before running this in the console/a script. Pacman will serve as your package installation/loading manager, it will install any of the packages used and not already installed so this may take a moment.
 
 `install.packages("shiny")`
 
@@ -18,6 +19,8 @@ Pacman will serve as your package installation/loading manager, it will install 
 `require("pacman")`
 
 `runGitHub(repo = "teenage-glasgow-shiny-demo", username = "omiridoue", ref = "main")`
+
+## To Clone the Repository Please see Following Steps
 
 **Step 1:** Open a new Rproject
 ![openj](https://github.com/omiridoue/teenage-glasgow-shiny-demo/assets/126977992/28344d37-4605-4248-950d-fc4fdd0257fd)
