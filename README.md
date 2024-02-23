@@ -8,7 +8,7 @@
 
 This is a shiny app for exploratory analysis for network data. This is an important process to every project that involves understanding of the interdependencies of data and the interactions these have with demographic covariates and response variables of interest. The following demo allows users to explore the Teenage Glasgow dataset through a modellers' lense allowing exploration of outcomes including sex and parent smoking outcomes. A table with descriptive statistics is updated with each selection of the survey wave. 
 
-You could skip cloning the repo and run it directly in your R script/console the following lines of code, try to check if you've installed shiny and/or pacman before running this in the console/a script. Pacman will serve as your package installation/loading manager, it will install any of the packages used and not already installed so this may take a moment.
+You could skip cloning the repo and run it directly in your R script/console the following lines of code, try to check if you've installed shiny and/or pacman before running this in the console/a script. Pacman will serve as your package installation/loading manager, it will install any of the packages used and not already installed so this may take a moment. It's worth restarting your R session if there is an error the first time you try to run the following lines of code, this may likely need to happen since many of the packages required will be new to your R environment.
 
 `install.packages("shiny")`
 
