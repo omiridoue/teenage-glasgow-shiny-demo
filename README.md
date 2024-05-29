@@ -12,15 +12,17 @@ You could skip cloning the repo and run it directly in your R script/console the
 
 ## To Run from Script/Console 
 
-`install.packages("shiny")`
+```r
+install.packages("shiny")
 
-`install.packages("pacman")`
+install.packages("pacman")
 
-`require(shiny)`
+require(shiny)
 
-`require("pacman")`
+require("pacman")
 
-`runGitHub(repo = "teenage-glasgow-shiny-demo", username = "omiridoue", ref = "main")`
+runGitHub(repo = "teenage-glasgow-shiny-demo", username = "omiridoue", ref = "main")
+```
 
 ## To Clone the Repository 
 
