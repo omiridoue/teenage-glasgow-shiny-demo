@@ -80,7 +80,7 @@ ui <- fluidPage(
     fluidRow(
       sliderInput(
         "filter", 
-        "Number of Friends (Outdegree)", 
+        "Number of Friends (Indegree)", 
         value = 0, 
         min = -1, 
         max = 6,
@@ -240,7 +240,7 @@ server <- function(input, output, session){
   observeEvent(input$filter, {
     sigmajsProxy("sg") %>% 
       sg_filter_undo_p("sz") %>% # we undo the filter before applying it
-      sg_filter_gt_p(input$filter, "outdegree", name = "sz") %>% 
+      sg_filter_gt_p(input$filter, "indegree", name = "sz") %>% 
       sg_noverlap_p()
   })
   
