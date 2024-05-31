@@ -6,17 +6,37 @@
 
 ## Demo for Interactive Network Graph - Public Engagement
 
+This is a shiny app for exploratory analysis of social network data. This is an important process to every project that involves understanding the interdependencies of data observations and the interactions these have along demographic covariates. The following demo allows users to explore the Teenage Glasgow dataset through a modellers' lense and seeks to contribute towards participatory action methods, involving stakeholders in the modelling process as they are able to visualise variation of smoking behaviours (non-smoker, occassional, frequent) color of nodes along personal attributes including sex and parent smoking outcomes. A table with descriptive statistics is updated with each selection of the survey wave, these values report metrics that reflect on the school-cohort cohesion. 
+
+You could skip cloning the repo and run it directly in your R script/console the following lines of code, try to check if you've installed shiny and/or pacman before running this in the console/a script. Pacman will serve as your package installation/loading manager, it will install any of the packages used and not already installed so this may take a moment. It's worth restarting your R session if there is an error the first time you try to run the following lines of code, this may likely need to happen since many of the packages required will be new to your R environment.
+
+## To Run from Script/Console 
+
+```r
+install.packages("shiny")
+
+install.packages("pacman")
+
+require(shiny)
+
+require("pacman")
+
+runGitHub(repo = "teenage-glasgow-shiny-demo", username = "omiridoue", ref = "main")
+```
+
+## To Clone the Repository 
+
 **Step 1:** Open a new Rproject
 ![openj](https://github.com/omiridoue/teenage-glasgow-shiny-demo/assets/126977992/28344d37-4605-4248-950d-fc4fdd0257fd)
 
 **Step 2:** Navigate to the code folder and open Rproj 'teenage-glasgow-shiny-demo'
 ![step3](https://github.com/omiridoue/teenage-glasgow-shiny-demo/assets/126977992/0ca9def5-afd9-4d54-ac5d-c2b13f01b857)
 
-**Step 3:** Navigate to the run_app.R file and open the script, click on the Run App button to render the shiny app file.
-![step4](https://github.com/omiridoue/teenage-glasgow-shiny-demo/assets/126977992/35ccc8bb-2d27-424b-8596-315f38b7c61b)
+**Step 3:** Navigate to the app.R file and open the script, click on the Run App button to render the shiny app file.
+![img3](https://github.com/omiridoue/teenage-glasgow-shiny-demo/assets/126977992/c814a190-0b8a-4a25-9ff7-4191f48cde13)
 
 **Step 4:** View in Browser
-![screenshot](https://github.com/omiridoue/teenage-glasgow-shiny-demo/assets/126977992/f24ba52e-3787-4a59-98ca-3c6e8a9cf747)
+![shiny-demo](https://github.com/omiridoue/teenage-glasgow-shiny-demo/assets/126977992/69862d19-b874-4519-be21-238138d54da2)
 
 ## References 
 
