@@ -80,7 +80,7 @@ ui <- fluidPage(
     fluidRow(
       sliderInput(
         "filter", 
-        "Number of Friends (Outdegree)", 
+        "Number of Friends (Indegree)", 
         value = 0, 
         min = -1, 
         max = 6,
@@ -129,7 +129,7 @@ ui <- fluidPage(
     h4("References:"),
     h5("West and Sweeting (1995), Michell and Amos (1997), Pearson and Michell (2000),
                          Pearson and West (2003)"),
-    h5("The interactive graphs in this document were built using sigma.js for R. The ideas draw on the R Glasgow Users Group from Nov 2023, special thanks to Dylan Lewis and Erik Igelstrom at the University of Glasgow Social Public Health Unit for showcasing their work and for all the helpful comments and advice from attendees! Most of the code draws on the extensive sigmajs-shiny documentation by John Coene. Data curation in igraph was carried forward from a previous project as part of the NCRM Social Network Analysis course delivered by Dr. Michael Heaney. Generative Artificial Intelligence was used to code aspects of the server side for this shiny document. Thank you to Dr. Emily Long, Dr. Mark McCann and Dr. Srebrenka Letina for their valuable comments and feedback on temporal graph visualisations. Any error, omission or issue is my own, please drop me a line at 2333157O@student.gla.ac.uk would appreciate your feedback!"),
+    h5("The interactive graphs in this document were built using sigma.js for R. The ideas draw on the R Glasgow Users Group from Nov 2023, special thanks to Dylan Lewis and Erik Igelström at the University of Glasgow Social Public Health Unit for showcasing their work and for all the helpful comments and advice from attendees! Most of the code draws on the extensive sigmajs-shiny documentation by John Coene. Data curation in igraph was carried forward from a previous project as part of the NCRM Social Network Analysis course delivered by Dr. Michael Heaney. Generative Artificial Intelligence was used to code aspects of the server side for this shiny document. Thank you to Dr. Emily Long, Dr. Mark McCann and Dr. Srebrenka Letina for their valuable comments and feedback on temporal graph visualisations. Any error, omission or issue is my own, please drop me a line at 2333157O@student.gla.ac.uk would appreciate your feedback!"),
     #htmlOutput("picture"),
     #fluidRow(div(style ="height:100px; padding:0px;"), DTOutput("dtNodes"))
   )
@@ -240,12 +240,11 @@ server <- function(input, output, session){
   observeEvent(input$filter, {
     sigmajsProxy("sg") %>% 
       sg_filter_undo_p("sz") %>% # we undo the filter before applying it
-      sg_filter_gt_p(input$filter, "outdegree", name = "sz") %>% 
+      sg_filter_gt_p(input$filter, "indegree", name = "sz") %>% 
       sg_noverlap_p()
   })
   
   observeEvent(input$sex_variable, {
-    # Apply filter based on selected time
     sigmajsProxy("sg") %>% 
       sg_filter_undo_p("sex_variable") %>% 
       sg_filter_not_eq_p(input$sex_variable, "sex_variable", name = "sex_variable") %>% 
@@ -253,7 +252,6 @@ server <- function(input, output, session){
   })
   
   observeEvent(input$parent_smoking, {
-    # Apply filter based on selected time
     sigmajsProxy("sg") %>% 
       sg_filter_undo_p("parent_smoking") %>% 
       sg_filter_not_eq_p(input$parent_smoking, "parent_smoking", name = "parent_smoking") %>% 

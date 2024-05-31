@@ -1,6 +1,6 @@
 # A couple of comments on using shiny to create a reactive dashboard that can 
 # be hosted locally in your browser of choice. To run the app make sure the
-# R project is open to sigmajs-R-flexdashboard-shiny in the top right dropdown
+# R project is open to teenage-glasgow-shiny-demo in the top right dropdown
 # 
 # Then click on Run and select Run all, or select all and Ctrl+Enter.
 # 
@@ -285,6 +285,5 @@ result_df3 <- as.data.frame(result3)
 
 styled_table3 <- result_df3 %>% 
   htmlTable(.,theme = "scientific", css.table = "width:80%;border: none")
-
 
 styled_table <- styled_table1
